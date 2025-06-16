@@ -3,20 +3,17 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Gerador {
-    Random gerador = new Random();
 
-    public String gerarPalavra(int random) throws IOException {
-        List<String> palavras = new ArrayList<>();
+    public String generate(int random) throws IOException {
+        List<String> words = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("palavras.txt"));
-            String linha;
-            while((linha = br.readLine())!=null){
-                palavras.add(linha);
+            String line;
+            while((line = br.readLine())!=null){
+                words.add(line);
             }
-        String palavraEscolhida = palavras.get(random);
-        return palavraEscolhida;
+        String word = words.get(random);
+        return word;
     }
-
 }

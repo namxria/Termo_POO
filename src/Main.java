@@ -8,7 +8,7 @@ public class Main {
         Gerador gerar = new Gerador();
         String palavraAleatoria;
         try {
-            palavraAleatoria = gerar.gerarPalavra(numAleatorio);
+            palavraAleatoria = gerar.generate(numAleatorio);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
