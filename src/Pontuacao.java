@@ -1,9 +1,9 @@
 public enum Pontuacao {
-    PRIMEIRA,
-    SEGUNDA,
-    TERCEIRA,
-    QUARTA,
-    QUINTA,
-    SEXTA,
-    PERDEU
+    FIRST,
+    SECOND,
+    THIRD,
+    FORTH,
+    FIFTH,
+    SIXTH,
+    OVER
 }

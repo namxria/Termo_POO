@@ -3,15 +3,15 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Random gerador = new Random();
-        int numAleatorio = gerador.nextInt(5481+1);
-        Gerador gerar = new Gerador();
-        String palavraAleatoria;
+        Random rand = new Random();
+        int randNumber = rand.nextInt(1,5482);
+        Gerador generator = new Gerador();
+        String randWord;
         try {
-            palavraAleatoria = gerar.generate(numAleatorio);
+            randWord = generator.generate(randNumber);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(palavraAleatoria);
+        System.out.println(randWord);
     }
 }
