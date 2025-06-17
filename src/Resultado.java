@@ -1,20 +1,20 @@
-public class Resultado extends Pontuacao {
+public class Resultado implements Pontuacao {
     public String showResult(Pontuacao numTries){
         String message = "";
         if (numTries == Pontuacao.FIRST){
-            message = "";
+            message = "Perfeito!";
         } else if (numTries == Pontuacao.SECOND){
-            message = "";
+            message = "Excelente!";
         } else if (numTries == Pontuacao.THIRD){
-            message = "";
+            message = "Incrível!";
         } else if (numTries == Pontuacao.FORTH){
-            message = "";
+            message = "Ótimo!";
         } else if (numTries == Pontuacao.FIFTH){
-            message = "";
+            message = "Bom!";
         } else if (numTries == Pontuacao.SIXTH){
-            message = "Ufa";
+            message = "Ufa!";
         } else if (numTries == Pontuacao.OVER){
-            message = "A palavra era: ";
+            message = "Que pena!";
 
         return message;
     }
