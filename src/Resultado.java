@@ -1,4 +1,4 @@
-public class Resultado implements Pontuacao {
+public class Resultado {
     public String showResult(Pontuacao numTries){
         String message = "";
         if (numTries == Pontuacao.FIRST){
@@ -13,9 +13,9 @@ public class Resultado implements Pontuacao {
             message = "Bom!";
         } else if (numTries == Pontuacao.SIXTH){
             message = "Ufa!";
-        } else if (numTries == Pontuacao.OVER){
+        } else if (numTries == Pontuacao.OVER) {
             message = "Que pena!";
-
+        }
         return message;
     }
 }
