@@ -1,20 +1,20 @@
 public class Resultado {
-    public String showResult(Pontuacao numTries){
+    public String showResult(int quantTentativas){
         String message = "";
-        if (numTries == Pontuacao.FIRST){
-            message = "Perfeito!";
-        } else if (numTries == Pontuacao.SECOND){
-            message = "Excelente!";
-        } else if (numTries == Pontuacao.THIRD){
-            message = "Incrível!";
-        } else if (numTries == Pontuacao.FORTH){
-            message = "Ótimo!";
-        } else if (numTries == Pontuacao.FIFTH){
-            message = "Bom!";
-        } else if (numTries == Pontuacao.SIXTH){
-            message = "Ufa!";
-        } else if (numTries == Pontuacao.OVER) {
-            message = "Que pena!";
+        if (quantTentativas == 6){
+            message = "Perfeito! Você acertou de primeira!";
+        } else if (quantTentativas == 5){
+            message = "Excelente! Você acertou!";
+        } else if (quantTentativas == 4){
+            message = "Incrível! Você acertou!";
+        } else if (quantTentativas == 3){
+            message = "Ótimo! Você acertou!";
+        } else if (quantTentativas == 2){
+            message = "Bom! Você acertou!";
+        } else if (quantTentativas == 1){
+            message = "Ufa, essa foi quase! Você acertou!";
+        } else if (quantTentativas == 0) {
+            message = "Que pena! Você perdeu!";
         }
         return message;
     }

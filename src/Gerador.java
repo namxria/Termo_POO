@@ -13,7 +13,7 @@ public class Gerador {
         while((line = br.readLine())!=null){
             words.add(line);
         }
-        String word = words.get(random);
+        String word = words.get(random).toUpperCase();
         return word;
     }
 }

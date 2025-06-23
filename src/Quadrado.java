@@ -1,7 +1,6 @@
 public class Quadrado {
-    public static String quadradocolorido(ResultadoLetra resultado) {
+    public static String quadradoColorido(ResultadoLetra resultado) {
         String cor;
-
         switch (resultado){
             case CORRETO:
                 cor = "\u001B[42m"; // fundo verde

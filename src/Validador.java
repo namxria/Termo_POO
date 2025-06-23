@@ -1,8 +1,5 @@
 public class Validador {
     public ResultadoLetra[] validador(String palavraCorreta, String tentativa) {
-        palavraCorreta = palavraCorreta.toUpperCase();  /*ó criei essas duas variaveis que guardam a palavra correta e a tentativa que vai ser comparadas */
-        tentativa = tentativa.toUpperCase();
-
 
         ResultadoLetra[] resultado = new ResultadoLetra[palavraCorreta.length()]; /*dai aqui eu jogo a palavra sorteada em uma lista*/
         boolean[] letrasUsadas = new boolean[palavraCorreta.length()]; /*e aqui eu fiz uma lista só dizendo se as posições dela são verdadeiros ou falços*/
