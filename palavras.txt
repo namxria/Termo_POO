@@ -18,7 +18,6 @@ abeto
 ablua
 ablui
 abluo
-Abner
 abole
 aboli
 abono
@@ -62,7 +61,6 @@ achou
 acida
 acido
 acima
-Acker
 acode
 acoes
 acola
@@ -120,7 +118,6 @@ adulo
 advem
 advim
 advir
-Aecio
 aerea
 aereo
 afaga
@@ -196,7 +193,6 @@ aguia
 aguou
 ainda
 aires
-Aires
 ajais
 ajamo
 ajuda
@@ -311,8 +307,6 @@ andem
 andes
 andor
 andou
-andre
-Andre
 aneis
 anela
 anele
@@ -458,7 +452,6 @@ arrio
 arroz
 artes
 artur
-Artur
 asila
 asile
 asilo
