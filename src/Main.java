@@ -41,6 +41,7 @@ public class Main {
             for (String word : words){
                 if (tentativa.equals(word.toUpperCase())){
                     palavraExiste = true;
+                    break;
                 }
             }
             if (!palavraExiste){
