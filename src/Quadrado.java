@@ -1,16 +1,16 @@
 public class Quadrado {
-    public static String quadradoColorido(ResultadoLetra resultado) {
+    public static String mostrarStatus(Status resultado) {
         String cor;
         switch (resultado){
             case CORRETO:
-                cor = "\u001B[42m"; // fundo verde
+                cor = "\u001B[42m";
                 break;
             case EXISTENTE:
-                cor = "\u001B[43m"; // fundo amarelo
+                cor = "\u001B[43m";
                 break;
             case INCORRETO:
             default:
-                cor = "\u001B[41m"; // fundo vermelho
+                cor = "\u001B[41m";
                 break;
         }
         String reset = "\u001B[0m";

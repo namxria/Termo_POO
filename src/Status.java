@@ -1,4 +1,4 @@
-public enum ResultadoLetra {
+public enum Status {
     CORRETO,
     EXISTENTE,
     INCORRETO

@@ -1,5 +1,5 @@
 public class Resultado {
-    public String showResult(int quantTentativas){
+    public String fimDeJogo(int quantTentativas){
         String message = "";
         if (quantTentativas == 6){
             message = "Perfeito! Você acertou de primeira!";
